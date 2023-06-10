@@ -4,11 +4,17 @@
 
 ### フロントエンド
 
+Vue3 + TypeScript + Vite
+ホットリロードが効きます
+
 ```
 cd frontend && npm run dev
 ```
 
 ### バックエンド
+
+Go + Echo + Air
+ホットリロードが効きます
 
 ```
 cd backend && air
