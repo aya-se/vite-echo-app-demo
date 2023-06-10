@@ -6,18 +6,23 @@
 
 Vue3 + TypeScript + Vite
 
-ホットリロードが効きます
-
 ```
-cd frontend && npm run dev
+cd frontend && npm install && npm run dev
 ```
 
 ### バックエンド
 
 Go + Echo + Air
 
-ホットリロードが効きます
-
 ```
 cd backend && air
+```
+
+初回のみ（使用する Shell に PATH を通す）
+
+`export PATH="$HOME/go/bin:$PATH"`を`.zshrc`に追加
+
+```
+nano ~/.zshrc
+source ~/.zshrc
 ```
