@@ -20,7 +20,7 @@ fetch(`${API_URL}/foods`)
     <ul>
       <li v-for="item in items" :key="item.name">
         <div>名前: {{ item.name }}</div>
-        <div>名前: {{ item.price }}</div>
+        <div>価格: {{ item.price }}円</div>
       </li>
     </ul>
   </div>

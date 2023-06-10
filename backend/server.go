@@ -39,6 +39,7 @@ func getFoods(c echo.Context) error {
 		{Name: "チョコレート", Price: 100},
 		{Name: "ポテトチップス", Price: 200},
 		{Name: "コーラ", Price: 150},
+		{Name: "アイス", Price: 200},
 	}
 	return c.JSON(http.StatusOK, foods)
 }
