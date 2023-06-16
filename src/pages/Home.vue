@@ -1,3 +1,8 @@
-<script setup></script>
-<template><div>Home</div></template>
+<script setup>
+import { store } from "../store.js";
+</script>
+<template>
+  <div>Home</div>
+  <div>{{ store.count }}</div>
+</template>
 <style></style>
