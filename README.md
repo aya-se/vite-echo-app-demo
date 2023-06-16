@@ -1,28 +1,7 @@
-# vite-echo-app-demo
+# Vue 3 + Vite
 
-## 起動方法
+This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
-### フロントエンド
+## Recommended IDE Setup
 
-Vue3 + TypeScript + Vite
-
-```
-cd frontend && npm install && npm run dev
-```
-
-### バックエンド
-
-Go + Echo + Air
-
-```
-cd backend && air
-```
-
-初回のみ（使用する Shell に PATH を通す）
-
-`export PATH="$HOME/go/bin:$PATH"`を`.zshrc`に追加
-
-```
-nano ~/.zshrc
-source ~/.zshrc
-```
+- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
